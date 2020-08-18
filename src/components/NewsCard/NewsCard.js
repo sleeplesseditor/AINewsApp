@@ -1,5 +1,5 @@
 import React from 'react';
-import { useStyles } from './styles.js';
+import useStyles from './styles.js';
 import { Card, CardActions, CardActionArea, CardContent, CardMedia, Button, Typography } from '@material-ui/core';
 
 const NewsCard = ({ article: {description, publishedAt, source, title, url, urlToImage}, i}) => {
